@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+fieldset {
+    width: 90%;
+    background-size: cover;
+    min-height: 800px;
+    margin-top: 30px;
+}
+
+#M1img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: gold;
+}
+
+#result {
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#subtitle {
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    gap: 2%;
+}
+
+#outputIndivisual {
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+
+li {
+    list-style: none;
+}

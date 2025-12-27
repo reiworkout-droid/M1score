@@ -1,0 +1,68 @@
+#judgement {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+}
+
+#results {
+    margin-left: 85%;
+    margin-top: 20px;
+}
+
+
+form {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    background-color: #ff0000;
+}
+
+#referee {
+    margin-top: 50px;
+}
+
+#combination {
+    margin-top: 40px;
+}
+
+#point {
+    margin-top: 40px;
+}
+
+#opinion{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#description {
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+#sendButton {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: gold;
+}
